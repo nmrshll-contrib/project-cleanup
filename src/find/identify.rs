@@ -31,7 +31,7 @@ pub fn identify_cleanable_project(path : &Path) -> Option<Project> {
 	if exists_in_path(path, "package.json") {
 		found = true;
 		project.try_add_dependency_dir("node_modules");
-		project.try_add_dependency_dir(".cache");
+		// project.try_add_dependency_dir(".cache");
 	}
 
 	// Java projects
