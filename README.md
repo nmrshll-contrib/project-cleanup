@@ -20,13 +20,13 @@ drive right now.
 Download the binary for your platform from the 
 [releases page](https://github.com/woubuc/project-cleanup/releases)
 
-Or install via Cargo: `cargo install project-cleanup`
+Or install via Cargo: `cargo install --git https://github.com/nmrshll-contrib/project-cleanup`
 
 ## How it works
 Run the application with `project-cleanup --help` to see the options.
 
 ## Supported languages
-- Node.js (will remove the `node_modules` and `.cache` directories)
+- Node.js (will remove the `node_modules` directories)
 - Rust (will remove the `target` directory)
 - Java (will remove the `.gradle` and `build` directories)
 
